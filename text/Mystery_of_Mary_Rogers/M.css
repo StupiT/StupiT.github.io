@@ -1,0 +1,140 @@
+﻿/* FONTS http://www.gust.org.pl/projects/e-foundry/tex-gyre/whole
+	OR http://www.ctan.org/tex-archive/fonts/tex-gyre/fonts/opentype/public/tex-gyre
+	REDUCED TO WOFF VIA sfnt2woff: http://people.mozilla.org/~jkew/woff/ */
+@font-face{font-family:"texgyretermes";src:url("../../FNT/texgyretermes-regular.woff");font-style:normal;}
+@font-face{font-family:"texgyretermes";src:url("../../FNT/texgyretermes-italic.woff");font-style:italic;}
+@font-face{font-family:"texgyretermes";src:url("../../FNT/texgyretermes-bolditalic.woff");font-weight:bold;font-style:italic;}
+@font-face{font-family:"texgyretermes";src:url("../../FNT/texgyretermes-bold.woff");font-weight:bold;font-style:normal;}
+
+/* http://www.google.com/fonts/ */
+@font-face{font-family:"PTSC";src:url("../../FNT/PT_Serif-Caption-Web-Regular.ttf");font-style:normal;}
+@font-face{font-family:"PTSC";src:url("../../FNT/PT_Serif-Caption-Web-Italic.ttf");font-style:italic;}
+
+/* http://www.fontsquirrel.com/fonts/Old-Standard-TT */
+@font-face{font-family:"OldStandard";src:url("../../FNT/OldStandard-Regular.ttf");font-style:normal;}
+@font-face{font-family:"OldStandard";src:url("../../FNT/OldStandard-Italic.ttf");font-style:italic;}
+
+/* http://www.fontsquirrel.com/fonts/libre-baskerville */
+@font-face{font-family:"LibreBaskerville";src:url("../../FNT/LibreBaskerville-Regular.otf");font-style:normal;}
+@font-face{font-family:"LibreBaskerville";src:url("../../FNT/LibreBaskerville-Italic.otf");font-style:italic;}
+
+/* http://www.dafont.com/orwell.font OR http://mjanetmars.com/fonts OR http://fontgal.com/font/585-orwell */
+@font-face{font-family:"orwell";src:url("../../FNT/Orwell.ttf"),url("../../FNT/Orwell.woff");font-style:normal;}
+
+/* http://www.dafont.com/veteran-typewriter.font */
+@font-face{font-family:"veterantypewriter";src:url("../../FNT/veterantypewriter.ttf"),url("../../FNT/veterantypewriter.woff");font-style:normal;}
+
+/* http://www.dafont.com/judges.font */
+@font-face{font-family:"Judges";src:url("../../FNT/Judges.otf"),url("../../FNT/Judges.woff");font-style:normal;}
+
+body,div,pre,h1,h2,h3,hr,br,a,b,d,f,f8,f9,f12,f15,f20,l9,m7,m8,m9,r180,cl,input,label,p,s,small,u,td{margin:0;padding:0;border:0;}
+body{font-size:20pt;background-color:#f9f9f4;color:#201000;}
+/* ELLIPSIS with PRE: Opera 12, Firefox 26, Chrome 29;
+	PRE-WRAP: Chrome adds an emtpy line after many "=";
+	IE10 "ellipsises" only the first line. */
+#m2{width:auto;text-align:left;padding-left:1%;max-width:98.5%;border-right:dashed 1px;border-left:dashed 1px;display:inline-block;line-height:1.2em;
+	white-space:pre-wrap;overflow:hidden;-o-text-overflow:ellipsis;-ms-text-overflow:ellipsis;text-overflow:ellipsis;}
+
+h1,h2,h3{text-align:center;line-height:normal;}
+h1{font-size:200%}
+h2{font-size:150%}
+h3{font-size:120%}
+hr{border-bottom:solid 1px;border-top:solid 1px;height:0.2em;}
+s{background-color:#bababa;color:#858585;}
+d{font-style:italic;font-family:tahoma,arial;font-size:50%;line-height:90%;clear:both;float:right;}
+f7{font-size:70%;}
+f8{font-size:80%;}
+f9{font-size:90%;}
+f12{font-size:120%;}
+f15{font-size:150%;}
+f20{font-size:200%;}
+l9{line-height:90%;display:inline-block;}
+m7{font-size:70%;line-height:100%;display:inline-block;}
+m8{font-size:80%;line-height:100%;display:inline-block;}
+m9{font-size:90%;line-height:100%;display:inline-block;}
+.r180,r180{transform:rotate(180deg);}/* working in Opera 12.16, not in shitty Opera 20.0.1346.0,Chrome 31,Firefox29.0a1(2013-12-16) */
+cl{font-size:200%;float:left;line-height:90%;display:inline-block;}
+u{text-decoration:none;border-bottom:dotted 0.1em;}
+a{text-decoration:none;color:#000099;background-color:#fff;opacity:.8;}
+.l,.l a,h1 a,h2 a,d a{color:#009900;}
+.e,.e a{color:#000099;}
+a:hover{color:#990000;opacity:1;}
+
+input{display:none;}
+label{cursor:pointer;font-size:75%;}
+
+input[name="fS"]+label{display:inline-block;height:26pt;width:40pt;overflow:hidden;border:solid #008 2pt;vertical-align:top}
+input[name="fS"]:checked+label{background:#ff9;}
+input#rbfs10:checked~.d0, input#rbfs10+label:hover~.d0{font-size:10pt;}
+input#rbfs15:checked~.d0, input#rbfs15+label:hover~.d0{font-size:15pt;}
+input#rbfs20:checked~.d0, input#rbfs20+label:hover~.d0{font-size:20pt;}
+input#rbfs24:checked~.d0, input#rbfs24+label:hover~.d0{font-size:24pt;}
+input#rbfs28:checked~.d0, input#rbfs28+label:hover~.d0{font-size:28pt;}
+
+body,div,pre{-o-tab-size:5}/* It seems Opera 12(-) always changes tabs to MONO-width spaces */
+input[name="fF"]+label{display:inline-block;padding:2pt;height:20pt;border:solid #008 2pt;vertical-align:top}
+input[name="fF"]:checked+label{background:#9ff;}
+input#rb-arial:checked~.d0, input#rb-arial+label:hover~.d0{font-family:arial;-o-tab-size:6;}
+input#rb-tahoma:checked~.d0, input#rb-tahoma+label:hover~.d0{font-family:tahoma;-o-tab-size:5;}
+input#rb-verdana:checked~.d0, input#rb-verdana+label:hover~.d0{font-family:verdana;-o-tab-size:5;}
+input#rb-serif:checked~.d0, input#rb-serif+label:hover~.d0{font-family:serif;-o-tab-size:5;}
+input#rb-sans-serif:checked~.d0, input#rb-sans-serif+label:hover~.d0{font-family:sans-serif;-o-tab-size:6;}
+input#rb-cursive:checked~.d0, input#rb-cursive+label:hover~.d0{font-family:cursive;-o-tab-size:4;}
+input#rb-fantasy:checked~.d0, input#rb-fantasy+label:hover~.d0{font-family:fantasy;-o-tab-size:6;}
+input#rb-monospace:checked~.d0, input#rb-monospace+label:hover~.d0{font-family:monospace;-o-tab-size:8;}
+input#rb-TNR:checked~.d0, input#rb-TNR+label:hover~.d0{font-family:"times new roman";-o-tab-size:5;}
+input#rb-termes:checked~.d0, input#rb-termes+label:hover~.d0{font-family:texgyretermes;-o-tab-size:4;}
+input#rb-PTSC:checked~.d0, input#rb-PTSC+label:hover~.d0{font-family:PTSC;-o-tab-size:4;}
+input#rb-LibreBaskerville:checked~.d0, input#rb-LibreBaskerville+label:hover~.d0{font-family:LibreBaskerville;-o-tab-size:4;}
+input#rb-OldStandard:checked~.d0, input#rb-OldStandard+label:hover~.d0{font-family:OldStandard;-o-tab-size:5;}
+input#rb-orwell:checked~.d0, input#rb-orwell+label:hover~.d0{font-family:orwell;-o-tab-size:8;}
+input#rb-Judges:checked~.d0, input#rb-Judges+label:hover~.d0{font-family:Judges;-o-tab-size:6;}
+input#rb-veterantypewriter:checked~.d0, input#rb-veterantypewriter+label:hover~.d0{font-family:veterantypewriter;-o-tab-size:5;}
+
+input[name="bC"]+label{display:inline-block;height:22pt;width:40pt;overflow:hidden;vertical-align:sub;text-align:center;margin-top:.5em;}
+input#rb-default:checked~.d0, input#rb-default+label:hover~.d0{background-color:#f9f9f4;color:#201000;}
+input#rb-black:checked~.d0, input#rb-black+label:hover~.d0{background-color:black;color:white;}
+input#rb-gray:checked~.d0, input#rb-gray+label:hover~.d0{background-color:gray;color:white;}
+input#rb-silver:checked~.d0, input#rb-silver+label:hover~.d0{background-color:silver;color:black;}
+input#rb-white:checked~.d0, input#rb-white+label:hover~.d0{background-color:white;color:black;}
+input#rb-blue:checked~.d0, input#rb-blue+label:hover~.d0{background-color:blue;color:white;}
+input#rb-green:checked~.d0, input#rb-green+label:hover~.d0{background-color:green;color:white;}
+input#rb-red:checked~.d0, input#rb-red+label:hover~.d0{background-color:red;color:white;}
+input#rb-yellow:checked~.d0, input#rb-yellow+label:hover~.d0{background-color:yellow;color:black;}
+input#rb-pink:checked~.d0, input#rb-pink+label:hover~.d0{background-color:pink;color:black;}
+input#rb-brown:checked~.d0, input#rb-brown+label:hover~.d0{background-color:brown;color:white;}
+input#rb-maroon:checked~.d0, input#rb-maroon+label:hover~.d0{background-color:maroon;color:white;}
+input#rb-lime:checked~.d0, input#rb-lime+label:hover~.d0{background-color:lime;color:black;}
+input#rb-blime:checked~.d0, input#rb-blime+label:hover~.d0{background-color:black;color:lime;}
+
+f{opacity:.6;}
+input#rb-default:checked~.d0 f{opacity:.3}
+input#rb-black:checked~.d0 f{opacity:.8}
+input#rb-gray:checked~.d0 f{opacity:.5}
+input#rb-silver:checked~.d0 f{opacity:.4}
+input#rb-white:checked~.d0 f{opacity:.3}
+input#rb-blue:checked~.d0 f{opacity:.8}
+input#rb-green:checked~.d0 f{opacity:.6}
+input#rb-red:checked~.d0 f{opacity:.8}
+input#rb-yellow:checked~.d0 f{opacity:.3}
+input#rb-pink:checked~.d0 f{opacity:.3}
+input#rb-brown:checked~.d0 f{opacity:.7}
+input#rb-maroon:checked~.d0 f{opacity:.7}
+input#rb-lime:checked~.d0 f{opacity:.3}
+input#rb-blime:checked~.d0 f{opacity:.8}
+
+f:hover{opacity:1;}
+input#rb-default:checked~.d0 f:hover{opacity:1}
+input#rb-black:checked~.d0 f:hover{opacity:1}
+input#rb-gray:checked~.d0 f:hover{opacity:1}
+input#rb-silver:checked~.d0 f:hover{opacity:1}
+input#rb-white:checked~.d0 f:hover{opacity:1}
+input#rb-blue:checked~.d0 f:hover{opacity:1}
+input#rb-green:checked~.d0 f:hover{opacity:1}
+input#rb-red:checked~.d0 f:hover{opacity:1}
+input#rb-yellow:checked~.d0 f:hover{opacity:1}
+input#rb-pink:checked~.d0 f:hover{opacity:1}
+input#rb-brown:checked~.d0 f:hover{opacity:1}
+input#rb-maroon:checked~.d0 f:hover{opacity:1}
+input#rb-lime:checked~.d0 f:hover{opacity:1}
+input#rb-blime:checked~.d0 f:hover{opacity:1}

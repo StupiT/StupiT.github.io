@@ -1,0 +1,14 @@
+body,div,pre,h1,h2,h3,h4,br,hr{padding:0;margin:0;border:0;}
+body,div,pre{font-family:verdana;font-size:16pt;background-color:#ffffcc;color:brown;}
+body{max-width:100%;}
+#main,pre{white-space:pre-wrap}
+#main{margin:2pt;}
+h1,h2,h3,h4{font-family:times new roman,serif;text-align:center;}
+h1{font-size:200%}
+h2{font-size:150%}
+h3{font-size:120%}
+h4{font-size:100%}
+hr{border-bottom:solid 1px;border-top:solid 1px brown;height:2pt;}
+f{font-size:60%;font-family:arial;display:inline;}
+a{text-decoration:none;color:#000099;}
+a:hover{color:#990000;}
