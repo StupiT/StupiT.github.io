@@ -41,7 +41,7 @@ h2{font-size:150%}
 h3{font-size:120%}
 hr{border-bottom:solid 1px;border-top:solid 1px;height:0.2em;}
 s{background-color:#bababa;color:#858585;}
-d{font-style:italic;font-family:tahoma,arial;font-size:50%;line-height:90%;clear:both;float:right;}
+d{font-style:italic;font-family:tahoma,arial;font-size:50%;line-height:90%;text-align:right;clear:both;display:block;margin-bottom:-2em}
 f7{font-size:70%;}
 f8{font-size:80%;}
 f9{font-size:90%;}
