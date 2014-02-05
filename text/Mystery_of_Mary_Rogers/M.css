@@ -27,7 +27,7 @@
 /* http://www.dafont.com/judges.font */
 @font-face{font-family:"Judges";src:url("../../FNT/Judges.otf"),url("../../FNT/Judges.woff");font-style:normal;}
 
-body,div,pre,h1,h2,h3,hr,br,a,b,d,f,f8,f9,f12,f15,f20,l9,m7,m8,m9,r180,cl,input,label,p,s,small,u,td,img,g{margin:0;padding:0;border:0;}
+body,div,pre,h1,h2,h3,hr,br,a,b,d,f,f8,f9,f12,f15,f20,l9,m7,m8,m9,r180,cl,input,label,p,s,small,u,td,img,h{margin:0;padding:0;border:0;}
 body{font-size:20pt;background-color:#f9f9f4;color:#201000;}
 /* ELLIPSIS with PRE: Opera 12, Firefox 26, Chrome 29;
 	PRE-WRAP: Chrome adds an emtpy line after many "=";
@@ -140,5 +140,5 @@ input#rb-lime:checked~.d0 f:hover{opacity:1}
 input#rb-blime:checked~.d0 f:hover{opacity:1}
 
 img{display:block;height:auto;max-width:100%;}
-g{display:block;width:34em;max-width:100%}
+h{display:block;width:34em;max-width:100%}
 .o1{opacity:1}/* Firefox 29 fix (IMG inside A) */
