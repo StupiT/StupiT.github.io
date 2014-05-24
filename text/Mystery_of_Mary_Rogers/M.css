@@ -27,7 +27,7 @@
 /* http://www.dafont.com/judges.font */
 @font-face{font-family:"Judges";src:url("../../FNT/Judges.otf"),url("../../FNT/Judges.woff");font-style:normal;}
 
-body,div,pre,h1,h2,h3,hr,br,a,b,d,f,f8,f9,f12,f15,f20,l9,m7,m8,m9,r180,cl,input,label,p,s,small,u,td,img,h{margin:0;padding:0;border:0;}
+body,div,pre,h1,h2,h3,hr,br,a,b,d,f,f8,f9,f11,f12,f13,f14,f15,f16,f17,f18,f19,f20,l9,l95,m7,m8,m9,r180,cl,input,label,p,s,small,u,td,img,h{margin:0;padding:0;border:0;}
 body{font-size:20pt;background-color:#f9f9f4;color:#201000;}
 /* ELLIPSIS with PRE: Opera 12, Firefox 26, Chrome 29;
 	PRE-WRAP: Chrome adds an emtpy line after many "=";
@@ -45,10 +45,18 @@ d{font-style:italic;font-family:tahoma,arial;font-size:50%;line-height:90%;text-
 f7{font-size:70%;}
 f8{font-size:80%;}
 f9{font-size:90%;}
+f11{font-size:110%;}
 f12{font-size:120%;}
+f13{font-size:130%;}
+f14{font-size:140%;}
 f15{font-size:150%;}
+f16{font-size:160%;}
+f17{font-size:170%;}
+f18{font-size:180%;}
+f19{font-size:190%;}
 f20{font-size:200%;}
 l9{line-height:90%;display:inline-block;}
+l95{line-height:95%;display:inline-block;}
 m7{font-size:70%;line-height:100%;display:inline-block;}
 m8{font-size:80%;line-height:100%;display:inline-block;}
 m9{font-size:90%;line-height:100%;display:inline-block;}
